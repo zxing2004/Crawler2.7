@@ -10,8 +10,10 @@
 3. html解析器：负责将我们下载的html进行解析，提取新的url，并提取该html的内容。 
 4. html输出器：就是将我们收集的内容整体输出到一个html文件中，用于展示。
 
-		  我们这里使用的第三方库的beautifulsoup4来解析html，使用前请先安装（ pip install beautifulsoup4），详情参考：
-[foo]:http://www.crummy.com/software/BeautifulSoup/bs4/doc/ (beautifulsoup官网)
+	我们这里使用的第三方库的beautifulsoup4来解析html，使用前请先安装（ pip install beautifulsoup4），详情参考：
+	[beautifulsoup官网](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) 
+		  
+
 
 明白了大致的需求我们就来实现这给例子：
 ---- 
